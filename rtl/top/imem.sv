@@ -1,6 +1,6 @@
 module imem #(
   parameter int DEPTH_WORDS = 256,
-  parameter string HEX_FILE = ""
+  parameter HEX_FILE = ""
 ) (
   input  logic [31:0] addr,
   output logic [31:0] instr
